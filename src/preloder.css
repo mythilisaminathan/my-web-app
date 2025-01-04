@@ -1,0 +1,35 @@
+.preloader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    animation: fadeInOut 8s ease-in-out forwards; 
+  }
+  
+  .preloader img {
+    width: 150px;
+    height: auto;
+    animation: spin 4s linear infinite; 
+  } 
+  
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+    10% {
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    } 
+   }  
+  
