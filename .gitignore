@@ -12,11 +12,14 @@ dist
 dist-ssr
 *.local
 
-src/assets/
-assets/
-*.png
+# Exclude all images
 *.jpg
+*.png
 *.svg
+
+# Or exclude the entire 'assets' folder
+assets/
+
 
 
 # Editor directories and files
