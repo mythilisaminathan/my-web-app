@@ -11,14 +11,20 @@ node_modules
 dist
 dist-ssr
 *.local
-
-# Exclude all images
+# Exclude images globally, but allow assets folder images
 *.jpg
 *.png
 *.svg
 
-# Or exclude the entire 'assets' folder
-assets/
+# Allow assets folder
+!assets/
+!assets/*.jpg
+!assets/*.png
+!assets/*.svg
+# Ignore everything in the assets folder except its contents
+!src/assets/
+!src/assets/**/*
+
 
 
 
