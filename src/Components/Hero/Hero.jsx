@@ -17,7 +17,7 @@ const Hero = () => {
   return (
     <div id='home' className='hero'>
       <img src={girl} alt="" className='profile-img' />
-      <h2>I'm <span>Mythili Saminathan,</span> Frontend developer</h2>
+      <h2 className='hero-text'>I'm <span>Mythili Saminathan,</span> Frontend developer</h2>
       <p>
         As a frontend developer from India, I bring over a year of expertise in React.js and JavaScript, leveraging these skills to craft dynamic and user-centric web applications. Passionate about pushing the boundaries of front-end development, I thrive on tackling challenges and delivering innovative solutions.
       </p>

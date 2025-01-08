@@ -7,26 +7,24 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Node.js modules and build directories
 node_modules
 dist
 dist-ssr
 *.local
-# Exclude images globally, but allow assets folder images
+
+# Ignore all images globally
 *.jpg
 *.png
 *.svg
 
-# Allow assets folder
+# Allow specific directories and files
 !assets/
 !assets/*.jpg
 !assets/*.png
 !assets/*.svg
-# Ignore everything in the assets folder except its contents
 !src/assets/
 !src/assets/**/*
-
-
-
 
 # Editor directories and files
 .vscode/*
